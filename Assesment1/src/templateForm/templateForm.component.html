@@ -17,7 +17,7 @@
       
       <mat-form-field class="example-full-width" appearance="fill">
         <mat-label>Age</mat-label>
-        <input required matInput type="number" [(ngModel)]="age"  name="Age">
+        <input required matInput type="number" [(ngModel)]="age"   name="Age">
       </mat-form-field>
       <p EDirective [textcolor] = "'red'" *ngIf = "age >100 || age<0">Age should be between 1 to 100</p><br>
 

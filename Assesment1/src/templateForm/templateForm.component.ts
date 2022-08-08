@@ -8,7 +8,7 @@ import { NgForm } from "@angular/forms";
 
 export class EmployeeForm{
 
-    age:number = 0;
+    age:number = 1;
     pincode:string = '';
     address:string = '';
 
@@ -18,5 +18,5 @@ export class EmployeeForm{
         console.log(this.age);
     }
 
-    
+
 }
