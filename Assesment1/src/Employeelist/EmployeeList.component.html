@@ -1,0 +1,16 @@
+<table border = "1">
+    <tr>
+        <th>FullName</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>DOB</th>
+        <th>Address</th>
+    </tr>
+    <tr *ngFor = "let emp of employeelist">
+        <td>{{emp.name +" "+emp.mdname+" "+emp.lastname}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.gender}}</td>
+        <td>{{emp.DOB | date :'mediumDate'}}</td>
+        <td>{{emp.address1 +" "+ emp.address2}}</td>
+    </tr>
+</table>
